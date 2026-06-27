@@ -1,5 +1,5 @@
 #!/bin/bash
-
+hi swcond commit
 sudo su -
 yum install httpd -y
 cd /var/www/html
