@@ -1,0 +1,11 @@
+#!/bin/bash
+
+sudo su -
+yum install httpd -y
+cd /var/www/html
+echo "hello Sai" > index.html
+service httpd start
+chkconfig httpd on
+
+
+
